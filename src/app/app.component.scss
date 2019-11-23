@@ -1,0 +1,27 @@
+.site-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    #body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding-top: 90px;
+        padding-bottom: 10px;
+        
+        app-navigation-bar {
+            flex: 1;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    }
+
+    #copyright {
+        font-size: 8px;
+        padding-bottom: 4px;
+        align-self: center;
+    }
+}
