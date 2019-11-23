@@ -6,6 +6,26 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'services',
+    redirectTo: ''
+  },
+  {
+    path: 'photos',
+    redirectTo: ''
+  },
+  {
+    path: 'references',
+    redirectTo: ''
+  },
+  {
+    path: 'contact',
+    redirectTo: ''
+  },
+  {
+    path: 'apply',
+    redirectTo: ''
   }
 ];
 
