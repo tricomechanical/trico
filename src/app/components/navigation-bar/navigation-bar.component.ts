@@ -17,7 +17,7 @@ export class NavigationBarComponent {
             route: '/services'
         },
         {
-            label: 'PhotoGallery',
+            label: 'Photo Gallery',
             route: '/photos'
         },
         {
