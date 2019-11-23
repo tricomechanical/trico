@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="" (click)="onMenuItemClick(null)"><img alt="Brand" class="site-header-image" src="../../../assets/photos/TRICO-logo.gif"></a>
+    <button class="navbar-toggler mobile-nav-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" *ngFor="let item of menuItems" [ngClass]="{'dropdown': item.subItems && item.subItems.length > 0}">
+                <a *ngIf="(!item.subItems || item.subItems.length == 0) && item.route; else elseItemLink" 
+                    class="nav-link" 
+                    [ngClass]="{'disabled': item.disabled}"
+                    routerLink="{{item.route}}"
+                    routerLinkActive="active"
+                    (click)="onMenuItemClick(item)">
+                        {{item.label}}
+                </a>
+                <ng-template #elseItemLink>
+                    <a *ngIf="(!item.subItems || item.subItems.length == 0) && item.link; else elseBlock" 
+                        class="nav-link" 
+                        [ngClass]="{'disabled': item.disabled}"
+                        href="{{item.link}}"
+                        (click)="onMenuItemClick(item)">
+                            {{item.label}}
+                    </a>
+                </ng-template>
+                <ng-template #elseBlock>
+                    <a class="nav-link dropdown-toggle" 
+                        [ngClass]="{'disabled': item.disabled}"
+                        href="{{item.link}}" 
+                        id="navbarDropdown" 
+                        role="button" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                        (click)="onMenuItemClick(item)">
+                        {{item.label}}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div *ngFor="let subItem of item.subItems">
+                            <a class="dropdown-item"
+                                [ngClass]="{'disabled': subItem.disabled, 'menu-section-header': subItem.newSection}"
+                                routerLink="{{subItem.route}}"
+                                (click)="onMenuItemClick(subItem)">
+                                {{subItem.label}}
+                            </a>
+                            <div *ngIf="subItem.newSection" class="dropdown-divider"></div>
+                        </div>
+                    </div>
+                </ng-template>
+            </li>
+        </ul>
+    </div>
+</nav>
