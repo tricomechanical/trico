@@ -1,0 +1,17 @@
+.home-body-wrapper {
+    display: flex;
+    flex-direction: row;
+    .who-we-are-card {
+        .card-title {
+            padding: 8px 8px 0 8px;
+        }
+        flex: 3;
+    }
+    .specialties-card {
+        .card-title {
+            padding: 8px 8px 0 8px
+        }
+        flex: 1;
+        margin-left: 16px;
+    }
+}
