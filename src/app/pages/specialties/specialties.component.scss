@@ -1,0 +1,17 @@
+.specialties-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+    .services-card {
+        flex: 3;
+        margin: 0 8px;
+    }
+
+    .specialties-card {
+        flex: 1;
+        margin: 0 8px;
+        .card-title {
+            padding: 8px 8px 0 8px;
+        }
+    }
+}
