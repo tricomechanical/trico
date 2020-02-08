@@ -1,0 +1,9 @@
+<div class="card mb-3" [className]="cardClass">
+    <h4 *ngIf="cardTitle.length" class="card-title">{{ cardTitle }}</h4>
+    <hr *ngIf="cardTitle.length" class="my-1">
+    <div class="card-body">
+        <div class="card-text">
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>

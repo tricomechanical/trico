@@ -6,27 +6,19 @@
         <hr class="my-1">
     </div>
     <div class="home-body-wrapper">
-        <div class="card mb-3 who-we-are-card">
-            <h3 class="card-title">Who we are:</h3>
-            <hr class="my-1">
-            <div class="card-body">
-                <p class="card-text">
-                    {{ whoWeAreText }}
-                </p>
-            </div>
-        </div>
-        <div class="card mb-3 specialties-card">
-            <h3 class="card-title">Specialties</h3>
-            <hr class="my-1">
-            <div class="card-body">
-                <p>
-                    - Pulp Mill<br/>
-                    - Paper Machine<br/>
-                    - Power<br/>
-                    - Field Service<br/>
-                    - Custom Fabrication
-                </p>
-            </div>
-        </div>
+        <card class="who-we-are-card" [cardTitle]="'Who we are:'" [cardClass]="'who-we-are-card'">
+            <p class="card-text">
+                {{ whoWeAreText }}
+            </p>
+        </card>
+        <card class="specialties-card" [cardTitle]="'Specialties'" [cardClass]="'specialties-card'">
+            <ul>
+                <li>Pulp Mill</li>
+                <li>Paper Machine</li>
+                <li>Power</li>
+                <li>Field Services</li>
+                <li>Custom Fabrication</li>
+            </ul>
+        </card>
     </div>
 </div>

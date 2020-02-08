@@ -8,6 +8,7 @@ import { NavigationBarComponent } from './components/navigation-bar/navigation-b
 import { ContactComponent } from './pages/contact/contact.component';
 import { SpecialtiesComponent } from './pages/specialties/specialties.component';
 import { ReferencesComponent } from './pages/references/references.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReferencesComponent } from './pages/references/references.component';
     NavigationBarComponent,
     ContactComponent,
     SpecialtiesComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

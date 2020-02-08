@@ -5,17 +5,13 @@
         </h1>
     </div>
     <div class="references-wrapper">
-        <div class="card mb-3 reference-card" *ngFor="let reference of references">
-            <h4 class="card-title">{{ reference.name }}</h4>
-            <hr class="my-1">
-            <div class="card-body">
-                <div *ngFor="let location of reference.locations">
-                    <h5>{{location.location}}</h5>
-                    <ul class="card-text">
-                        <li *ngFor="let note of location.notes">{{note}}</li>
-                    </ul>
-                </div>
+        <card *ngFor="let reference of references" class="reference-card" [cardTitle]="reference.name" [cardClass]="'reference-card'">
+            <div *ngFor="let location of reference.locations">
+                <h5>{{location.location}}</h5>
+                <ul class="card-text">
+                    <li *ngFor="let note of location.notes">{{note}}</li>
+                </ul>
             </div>
-        </div>
+        </card>
     </div>
 </div>

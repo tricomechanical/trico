@@ -3,11 +3,6 @@
     flex-direction: row;
     .location-card {
         flex: 1;
-        margin: 0 8px;
-        background-color: darken(white, 5%);
-        .card-title {
-            padding: 8px 8px 0 8px;
-        }
         .answered-24 {
             color: red;
         }

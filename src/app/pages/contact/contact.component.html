@@ -11,53 +11,41 @@
     </div>
     <h2>Our Locations</h2>
     <div class="contact-body-wrapper">
-        <div class="card mb-3 location-card">
-            <h4 class="card-title">Northern Office</h4>
-            <hr class="my-1">
-            <div class="card-body">
-                <p class="card-text">
-                    <b>Address:</b><br/>
-                    &nbsp;&nbsp;36 Mussey Road<br/>
-                    &nbsp;&nbsp;Scarborough, ME 04074<br/>
-                    <b>Phone: </b><a href="tel:+12078838528">(207) 883-8528</a><br/>
-                    <b>Fax: </b><a href="tel:+12078833851">(207) 883-3851</a><br/>
-                    <b>Email: </b><a href="mailto:info@tricomech.com?subject=Contact from tricomechanical.com">info@tricomech.com</a><br/>
-                    <br/>
-                    <b class="answered-24">Answered 24 hours a day</b>
-                </p>
-            </div>
-        </div>
-        <div class="card mb-3 location-card">
-            <h4 class="card-title">Southern Office</h4>
-            <hr class="my-1">
-            <div class="card-body">
-                <p class="card-text">
-                    <b>Address:</b><br/>
-                    &nbsp;&nbsp;2800 W. Navy Blvd.<br/>
-                    &nbsp;&nbsp;Pensacola, FL 32505<br/>
-                    <b>Phone: </b><a href="tel:+18504364433">(850) 436-4433</a><br/>
-                    <b>Fax: </b><a href="tel:+18504364744">(850) 436-4744</a><br/>
-                    <b>Email: </b><a href="mailto:info@tricomech.com?subject=Contact from tricomechanical.com">info@tricomech.com</a><br/>
-                    <br/>
-                    <b class="answered-24">Answered 24 hours a day</b>
-                </p>
-            </div>
-        </div>
-        <div class="card mb-3 location-card">
-            <h4 class="card-title">West Coast Office</h4>
-            <hr class="my-1">
-            <div class="card-body">
-                <p class="card-text">
-                    <b>Address:</b><br/>
-                    &nbsp;&nbsp;1425 Alabama St. Suite C<br/>
-                    &nbsp;&nbsp;Longview, WA 98632<br/>
-                    <b>Phone: </b><a href="tel:+13604254147">(360) 425-4147</a><br/>
-                    <b>Fax: </b>N/A<br/>
-                    <b>Email: </b><a href="mailto:info@tricomech.com?subject=Contact from tricomechanical.com">info@tricomech.com</a><br/>
-                    <br/>
-                    <b class="answered-24">Answered 24 hours a day</b>
-                </p>
-            </div>
-        </div>
+        <card class="location-card" [cardTitle]="'Northern Office'" [cardClass]="'location-card'">
+            <p>
+                <b>Address:</b><br/>
+                &nbsp;&nbsp;36 Mussey Road<br/>
+                &nbsp;&nbsp;Scarborough, ME 04074<br/>
+                <b>Phone: </b><a href="tel:+12078838528">(207) 883-8528</a><br/>
+                <b>Fax: </b><a href="tel:+12078833851">(207) 883-3851</a><br/>
+                <b>Email: </b><a href="mailto:info@tricomech.com?subject=Contact from tricomechanical.com">info@tricomech.com</a><br/>
+                <br/>
+                <b class="answered-24">Answered 24 hours a day</b>
+            </p>
+        </card>
+        <card class="location-card" [cardTitle]="'Southern Office'" [cardClass]="'location-card'">
+            <p>
+                <b>Address:</b><br/>
+                &nbsp;&nbsp;2800 W. Navy Blvd.<br/>
+                &nbsp;&nbsp;Pensacola, FL 32505<br/>
+                <b>Phone: </b><a href="tel:+18504364433">(850) 436-4433</a><br/>
+                <b>Fax: </b><a href="tel:+18504364744">(850) 436-4744</a><br/>
+                <b>Email: </b><a href="mailto:info@tricomech.com?subject=Contact from tricomechanical.com">info@tricomech.com</a><br/>
+                <br/>
+                <b class="answered-24">Answered 24 hours a day</b>
+            </p>
+        </card>
+        <card class="location-card" [cardTitle]="'West Coast Office'" [cardClass]="'location-card'">
+            <p>
+                <b>Address:</b><br/>
+                &nbsp;&nbsp;1425 Alabama St. Suite C<br/>
+                &nbsp;&nbsp;Longview, WA 98632<br/>
+                <b>Phone: </b><a href="tel:+13604254147">(360) 425-4147</a><br/>
+                <b>Fax: </b>N/A<br/>
+                <b>Email: </b><a href="mailto:info@tricomech.com?subject=Contact from tricomechanical.com">info@tricomech.com</a><br/>
+                <br/>
+                <b class="answered-24">Answered 24 hours a day</b>
+            </p>
+        </card>
     </div>
 </div>
