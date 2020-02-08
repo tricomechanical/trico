@@ -1,7 +1,7 @@
 .specialties-wrapper {
     display: flex;
-    flex-direction: row;
-    
+    justify-content: space-around;
+
     .services-card {
         flex: 3;
         margin: 0 8px;
@@ -13,5 +13,17 @@
         .card-title {
             padding: 8px 8px 0 8px;
         }
+    }
+}
+
+@media (min-width: 961px) {
+    .specialties-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 960px) {
+    .specialties-wrapper {
+        flex-direction: column;
     }
 }
