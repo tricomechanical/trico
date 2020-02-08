@@ -11,6 +11,8 @@ export class CardComponent implements OnInit {
 
   @Input() cardClass: string = '';
   @Input() cardTitle: string = '';
+  @Input() darkerBackground: boolean = false;
+  @Input() border: boolean = false;
 
   ngOnInit(): void {
   }

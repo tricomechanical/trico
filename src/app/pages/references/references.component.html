@@ -5,7 +5,9 @@
         </h1>
     </div>
     <div class="references-wrapper">
-        <card *ngFor="let reference of references" class="reference-card" [cardTitle]="reference.name" [cardClass]="'reference-card'">
+        <card *ngFor="let reference of references" class="reference-card" 
+            [cardTitle]="reference.name" [cardClass]="'reference-card'"
+            [darkerBackground]="true">
             <div *ngFor="let location of reference.locations">
                 <h5>{{location.location}}</h5>
                 <ul class="card-text">
