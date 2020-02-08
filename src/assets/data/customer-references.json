@@ -1,0 +1,524 @@
+[
+    {
+        "name": "BANGOR HYDROELECTRIC",
+        "location":  "Veazie, ME",
+        "notes": [
+            "Power Boiler repairs",
+            "Replace 300' power piping"
+        ]
+    },
+    {
+        "name": "BOISE CASCADE",
+        "location": "International Falls, MN",
+        "notes": [
+            "Complete annual maintenance and repair of Brownstock washers"
+        ]
+    },
+    {
+        "name": "BOISE CASCADE",
+        "location": "St. Helens, OR",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components"
+        ]
+    },
+    {
+        "name": "BOISE CASCADE (Packaging Corp of America)",
+        "location": "Wallula, WA",
+        "notes": [
+            "Kamyr digester inspections/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Repair/modify chip bin and flash tanks",
+            "Replacement piping"
+        ]
+    },
+    {
+        "name": "DOMTAR INDUSTRIES",
+        "location": "Ashdown, AR",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Kamyr diffuser inspection and repairs",
+            "Hula Bin inspection/repairs",
+            "Kamyr Chip Feed upgrade modification",
+            "Kvaerner pressure diffuser inspection/repair",
+            "Install new top on Kamyr Digester",
+            "Install new DiamondBack chip bin"
+        ]
+    },
+    {
+        "name": "DOMTAR INDUSTRIES",
+        "location": "Johnsonburg, PA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection, repairs and modifications",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "DOMTAR INDUSTRIES",
+        "location": "Woodland, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Kamyr diffuser inspection and repairs",
+            "Bleach plant washer repairs and replacements"
+        ]
+    },
+    {
+        "name": "FORT JAMES CORP.",
+        "location": "Berlin, NH",
+        "notes": [
+            "Repair/rebuild Titanium heat exchangers"
+        ]
+    },
+    {
+        "name": "FORT JAMES CORP.",
+        "location": "St. Francisville, LA",
+        "notes": [
+            "Rebuild drum washers and thick stock pumps"
+        ]
+    },
+    {
+        "name": "GEORGIA-PACIFIC",
+        "location": "Camas, WA",
+        "notes": [
+            "Diffuser maintenance and upgrades"
+        ]
+    },
+    {
+        "name": "GEORGIA-PACIFIC",
+        "location": "Old Town, ME",
+        "notes": [
+            "Kamyr diffuser inspection/repairs/modifications"
+        ]
+    },
+    {
+        "name": "GEORGIA-PACIFIC",
+        "location": "Pennington, AL",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Install 3rd row of extraction screens, nozzles and piping",
+            "Upgrade Kamyr digester feed system from #5 to #6",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Batch digester inspection/repairs/modifications",
+            "Tank repairs",
+            "Install new DiamondBack chip bin"
+        ]
+    },
+    {
+        "name": "GEORGIA-PACIFIC (ALABAMA RIVER CELLULOSE)",
+        "location": "Perdue Hill, AL",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Sunds digester inspection/repairs",
+            "Diffuser inspection/repairs/modifications",
+            "Titanium diffuser screen assembly change outs and weld repairs",
+            "Washer drum change outs",
+            "Replacement piping",
+            "Pressure diffuser inspections/repairs/modifications",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "GEORGIA-PACIFIC",
+        "location": "Port Hudson, LA",
+        "notes": [
+            "Batch digester inspections and repairs"
+        ]
+    },
+    {
+        "name": "GEORGIA-PACIFIC",
+        "location": "Woodland, ME",
+        "notes": [
+            "Washer drum inspection/repair/replacement"
+        ]
+    },
+    {
+        "name": "GRAPHIC PACKAGING (formerly International Paper)",
+        "location": "Augusta, GA",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Courtland, AL",
+        "notes": [
+            "Kamyr Chip Feed upgrade modification"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Eastover, SC",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Evaporator repair",
+            "Cluster Rule project",
+            "Tank repairs"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Erie, PA",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Debarking drum repairs",
+            "Kamyr diffuser inspection and repairs",
+            "Install drum washer",
+            "Rebuild mud filter",
+            "Rebuild various agitators and pumps",
+            "Paper machine repairs and equipment change outs",
+            "Tank repairs",
+            "Kiln repairs"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Franklin, VA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Batch digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Fabricate and install new 8' section of chip bin w/airlocks",
+            "Replacement piping",
+            "Tank repairs",
+            "Kiln repairs",
+            "Install new DiamondBack chip bin"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Georgetown, SC",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection, repairs and modifications",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Pensacola, FL",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection, repairs and modifications",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Prattville, AL",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Mansfield, LA",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Kamyr diffuser inspection and repairs",
+            "Replacement piping",
+            "Total pulp mill maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Mobile, AL",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Total pulp mill maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Riegelwood, NC",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Batch digester inspection/repairs/modifications",
+            "Total pulp mill maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Springfield, OR",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Screen replacement"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Ticonderoga, NY",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Drum washer replacement",
+            "Tank repairs",
+            "Total pulp mill maintenance"
+        ]
+    },
+    {
+        "name": "INTERNATIONAL PAPER CO.",
+        "location": "Vicksburg, MS",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Evaporator repairs",
+            "Debarking drum replacement"
+        ]
+    },
+    {
+        "name": "LINCOLN PULP & PAPER",
+        "location": "Lincoln, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components"
+        ]
+    },
+    {
+        "name": "ND PAPER (formerly RED SHIELD)",
+        "location": "Old Town, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs"
+        ]
+    },
+    {
+        "name": "ND PAPER (formerly CATALYST PAPER)",
+        "location": "Rumford, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Kamyr diffuser inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Batch digester inspection/repairs/modifications",
+            "Batch overlay repairs",
+            "Evaporator repairs",
+            "Tank repairs",
+            "Co-Generation boiler repairs"
+        ]
+    },
+    {
+        "name": "NEW PAGE CORP.",
+        "location": "Wickliffe, KY",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping"
+        ]
+    },
+    {
+        "name": "NIPPON DYNAWAVE PKG CO.",
+        "location": "Longview, WA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection, repairs and modifications",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "S.A.P.P.I., Inc.",
+        "location": "Hinckley, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection and repairs",
+            "Evaporator repairs",
+            "Washer drum inspections/rebuilds"
+        ]
+    },
+    {
+        "name": "SMURFIT-STONE CONTAINER",
+        "location": "Missoula, MT",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components"
+        ]
+    },
+    {
+        "name": "SMURFIT-STONE CONTAINER",
+        "location": "Snowflake, AZ",
+        "notes": [
+            "Rebuild collapsed chlorine washer drum"
+        ]
+    },
+    {
+        "name": "TAUNTON MUNICIPAL LIGHTING",
+        "location": "Taunton, MA",
+        "notes": [
+            "Boiler repairs"
+        ]
+    },
+    {
+        "name": "TEMPLE-INLAND",
+        "location": "Bogalusa, LA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "TEMPLE-INLAND",
+        "location": "Orange, TX",
+        "notes": [
+            "Kamyr equipment inspection/repairs"
+        ]
+    },
+    {
+        "name": "VERSO PAPER CO.",
+        "location": "Jay, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection and repairs",
+            "Drum washer repairs",
+            "Lime Kilns - major repairs",
+            "Total pulp mill maintenance",
+            "Evaporator repairs",
+            "Paper machine repairs",
+            "Debarking drum/flume repairs",
+            "Tank repairs"
+        ]
+    },
+    {
+        "name": "VERSO PAPER CO.",
+        "location": "Wisconsin Rapids, WI",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement piping",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "WESTROCK",
+        "location": "Demopolis, AL",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components"
+        ]
+    },
+    {
+        "name": "WESTROCK",
+        "location": "Hodge, LA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Evaporator repairs",
+            "Tank repairs"
+        ]
+    },
+    {
+        "name": "WESTROCK",
+        "location": "Fernandina Beach, FL",
+        "notes": [
+            "Kamyr digester inspection/repairs", 
+            "Kamyr outlet device replacement"
+        ]
+    },
+    {
+        "name": "WESTROCK (formerly Kapstone Paper)",
+        "location": "Longview, WA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Kamyr diffuser inspection, repairs and modifications",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "WESTROCK (formerly Kapstone Paper)",
+        "location": "North Charleston, SC",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Replacement piping",
+            "Total pulp mill shutdown maintenance"
+        ]
+    },
+    {
+        "name": "WESTROCK (formerly Kapstone Paper)",
+        "location": "Roanoke Rapids, NC",
+        "notes": [
+            "Digester repairs"
+        ]
+    },
+    {
+        "name": "WESTROCK",
+        "location": "Stevenson, AL",
+        "notes": [
+            "S-1 & D-1 digester inspection/repairs",
+            "Piping installation"
+        ]
+    },
+    {
+        "name": "WESTROCK",
+        "location": "Tacoma, WA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Screen replacement",
+            "Digester overly repairs",
+            "Piping fabrication and installation"
+        ]
+    },
+    {
+        "name": "WESTROCK",
+        "location": "West Point, VA",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Piping installation",
+            "Tank repairs"
+        ]
+    },
+    {
+        "name": "WEYERHAEUSER",
+        "location": "Port Wentworth, GA",
+        "notes": [
+            "Kamyr digester inspection/repairs",
+            "Replacement and rebuilds of Kamyr digester components",
+            "Kamyr diffuser inspection and repairs",
+            "Rebuild/replace misc. conveyors, repulpers, and pumps",
+            "Replace division bars and wire on drum washers",
+            "Rebuild stock thickener",
+            "Evaporator repairs",
+            "Tank repairs",
+            "Pulp press inspection/repairs"
+        ]
+    },
+    {
+        "name": "WOODLAND PULP",
+        "location": "Baileyville, ME",
+        "notes": [
+            "Kamyr digester inspection/repairs/modifications",
+            "Kamyr diffuser inspection and repairs",
+            "Replacement piping",
+            "Total pulp mill shutdown maintenance"
+        ]
+    }
+]
